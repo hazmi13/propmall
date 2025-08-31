@@ -13,34 +13,22 @@ A full-stack property management application built with React (Frontend) and Lar
 ### Backend
 - **Laravel** - PHP web application framework
 - **MariaDB** - Database management system
-- **Eloquent ORM** - Database abstraction layer
 
 ## 📋 Features
 
-### ✅ Implemented Features
+### Implemented Features
 - **Responsive Design** - Works on desktop, laptop, mobile, tablet, iPad
-- **Cross-Platform Compatibility** - Windows, Linux, Android, iOS
-- **Multi-Browser Support** - Chrome, Firefox, Edge, Safari
 - **Property Management** - CRUD operations for properties
 - **Photo Management** - Multiple photo upload with preview and reordering
 - **Search & Filter** - Location, year, and text search
 - **Price Management** - Multiple year pricing support
 - **WhatsApp Integration** - Direct contact with property agents
 
-### 🎯 Assessment Requirements Met
-- ✅ **Rule 1**: React Frontend + Laravel Backend + MariaDB Database
-- ✅ **Rule 2**: Fully responsive web application
-- ✅ **Rule 3**: Additional features (photo management, WhatsApp integration, search filters)
-- ✅ **Rule 4**: Ready for additional data testing
-- ✅ **Rule 5**: Deployment URLs provided
 
 ## 🌐 Live Demo
 
 ### Frontend (React)
 **URL:** https://propmall-28q4eqs04-hazmis-projects-74de0f62.vercel.app
-
-### Backend (Laravel)
-**URL:** [Railway deployment URL will be provided]
 
 ## 🛠️ Local Development Setup
 
@@ -77,28 +65,6 @@ php artisan migrate
 php artisan serve
 ```
 
-## 📁 Project Structure
-
-```
-propmall/
-├── app/
-│   ├── Http/Controllers/
-│   │   └── PropertyController.php
-│   └── Models/
-│       ├── Property.php
-│       ├── Location.php
-│       ├── PropertyPhoto.php
-│       └── PropertyPrice.php
-├── database/
-│   └── migrations/
-├── propmall-fronted/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── services/
-│   └── public/
-└── public/uploads/
-```
 
 ## 🔧 API Endpoints
 
@@ -163,46 +129,11 @@ The application is fully responsive and optimized for:
 2. Navigate to frontend: `cd propmall-fronted`
 3. Deploy: `vercel`
 
-### Backend Deployment (Railway)
-1. Create Railway account
-2. Connect GitHub repository
-3. Configure environment variables
-4. Deploy Laravel application
-
-## 🔒 Security Features
-
-- CORS configuration for cross-origin requests
-- Input validation and sanitization
-- File upload security
-- SQL injection prevention through Eloquent ORM
-
 ## 📊 Database Schema
 
 ### Tables
-- `properties` - Main property information
+- `property` - Main property information
 - `locations` - Property locations
 - `property_photos` - Property images
 - `property_prices` - Price history by year
-- `users` - User management (Laravel default)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is created for PropMall programming assessment.
-
-## 📞 Contact
-
-For questions about this assessment submission, please contact:
-- **Email:** talent@propmall.co
-- **Project:** PropMall Property Management System
-
----
-
-**Thank you for reviewing this PropMall assessment submission!** 🏠✨
