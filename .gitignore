@@ -1,0 +1,37 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+*.log
+.DS_Store
+Thumbs.db
+
+# Frontend
+propmall-fronted/node_modules
+propmall-fronted/build
+propmall-fronted/.env
+propmall-fronted/.env.local
+propmall-fronted/.env.development.local
+propmall-fronted/.env.test.local
+propmall-fronted/.env.production.local
+propmall-fronted/npm-debug.log*
+propmall-fronted/yarn-debug.log*
+propmall-fronted/yarn-error.log*
+
+# Uploads (keep some sample images)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Railway
+.vercel
